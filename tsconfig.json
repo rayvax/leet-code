@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "module": "commonjs",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "noEmit": true, // Ensures that TypeScript does not emit compiled JS files
+    "isolatedModules": true, // Required for ts-jest
+    "resolveJsonModule": true,
+    "lib": ["es6"]
+  },
+  "include": ["src/**/*.ts"]
+}
